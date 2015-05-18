@@ -1,0 +1,93 @@
+
+/* Layout */
+body {
+	background: #B1D6D4;
+	background-image: url(AchtergrondPatroon.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	font-family: "Calibri";
+}
+
+.kader2 {
+	background: rgba(255, 255, 255, 0.8);
+	width: 40em;
+	margin: 2em auto 2em auto;
+	padding: 0.8em;
+	border-radius: 5% 0% 5% 0%;
+	border: 0.2em solid #3B6763;
+	box-shadow: 0.2em 0.2em 2em black;
+}
+
+footer {
+	background: rgba(255, 255, 255, 0.8);
+	display: table;
+	float: right;
+	margin: 0.2em;
+	padding: 0.2em;
+	border-radius: 20%;
+}
+
+/* Tekst */
+h3 {
+	font-size: 2em;
+	color: #3B6763;
+	border-bottom: 0.05em solid #3B6763;
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+p {
+	color: #3B6763;
+}
+
+a {
+	color: #3B6763;
+	text-decoration: none;
+	font-size: 1.2em;
+	background: white;
+	border-radius: 100% 0% 100% 0%;
+	padding: 0.5em;
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	color: white;
+	background: #3B6763;
+	border-radius: 100% 0% 100% 0%;
+	padding: 0.5em;
+}
+
+.copyright {
+	color: #3B6763;
+	text-align: right;
+}
+
+/* Overig */
+.onzichtbaar {
+	display: none;
+}
+
+.zichtbaar {
+	display: inline;
+}
+
+.vakje1 {
+	width: 7em;
+	height: 7em;
+	background: purple;
+	float: left;
+	margin: 0.5em;
+	color: white;
+}
+
+.vakje2 {
+	width: 7em;
+	height: 7em;
+	background: purple;
+	float: right;
+	margin: 0.5em;
+	color: white;
+}
+
+/* Rosiers Naomi, 1GDMb */

@@ -1,0 +1,187 @@
+
+/* Layout */
+body {
+	background: #B1D6D4;
+	background-image: url(Afbeeldingen/AchtergrondPatroon.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	font-family: "Calibri";
+}
+
+header {
+	width: 40em;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 2em auto 2em auto;
+	padding: 0.5em;
+	text-align: right;
+	border-radius: 0% 35% 0% 35%;
+	border: 0.2em solid #3B6763;
+	box-shadow: 0.2em 0.2em 2em black;
+}
+
+.logoNR{
+	margin: 12em 2em 2em 4em;
+	position: fixed;
+}
+
+.kader1 {
+	background: rgba(255, 255, 255, 0.8);
+	position: relative;
+	width: 15em;
+	margin: auto auto auto 2em;
+	position: fixed;
+	display: block;
+	padding: 0.5em;
+	text-align: center;
+	border-radius: 30% 0% 30% 0%;
+	border: 0.2em solid #3B6763;
+	box-shadow: 0.2em 0.2em 2em black;
+}
+
+.popup2, .popup3, .popup4 {
+	position: fixed;
+	width: 15em;
+	margin: 4em auto auto 15em;
+	background: white;
+	border: 0.2em solid #3B6763;
+	box-shadow: 0.2em 0.2em 2em black;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.kader2 {
+	background: rgba(255, 255, 255, 0.8);
+	width: 40em;
+	margin: auto auto 2em auto;
+	padding: 0.8em;
+	border-radius: 5% 0% 5% 0%;
+	border: 0.2em solid #3B6763;
+	box-shadow: 0.2em 0.2em 2em black;
+}
+
+footer {
+	background: rgba(255, 255, 255, 0.8);
+	display: table;
+	float: right;
+	margin: 0.2em;
+	padding: 0.2em;
+	border-radius: 20%;
+}
+
+/* Tekst */
+h1 {
+	font-size: 3em;
+	color: #3B6763;
+}
+
+h2 {
+	font-size: 2em;
+	color: #3B6763;
+	border-bottom: 0.05em solid #3B6763;
+	text-align: right;
+}
+
+h3 {
+	font-size: 2em;
+	color: #3B6763;
+	border-bottom: 0.05em solid #3B6763;
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #3B6763;
+}
+
+a:hover, .bloggie {
+	color: white;
+	background: #3B6763;
+	border-radius: 30%;
+	padding: 0.2em;
+	font-size: 1.2em;
+}
+
+li {
+	margin: 0.2em;
+	position: relative;
+}
+
+p {
+	color: #3B6763;
+}
+
+.copyright {
+	color: #3B6763;
+	text-align: right;
+}
+
+/* Vakjes */
+
+.vak1 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+
+.vak2 {
+	width: 26.6%;
+	float: left;
+}
+
+.vak3 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+
+.vak4 {
+	width: 9.5%;
+	float: left;
+}
+.vak5 {
+	width: 9em;
+	height: 8em;
+	float: left;
+}
+
+.vak6 {
+	width: 8em;
+	height: 5em;
+	float: left;
+}
+
+.vak7 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+
+.vak8 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+
+.vak9 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+.vak10 {
+	width: 8em;
+	height: 8em;
+	float: left;
+}
+
+/* Overig */
+
+.onzichtbaar {
+	display: none;
+}
+
+.zichtbaar {
+	display: inline;
+}
+
+/* Rosiers Naomi, 1GDMb */
