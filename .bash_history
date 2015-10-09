@@ -80,3 +80,109 @@ source ~/.rvm/scripts/rvm
 rvm install rubyU2.2.0
 rvm install ruby 2.2.0
 gem install jekyll
+ls
+git init
+git config --global user.email "Naomi.Rosiers@telenet.be"
+git config --global user.name "NaomiRosiers"
+https://github.com/NaomiRosiers/StaticApp.git
+git remote add origin https://github.com/NaomiRosiers/StaticApp.git
+git add .
+clear
+git commit -Mijn eerste commit
+git push origin master
+git branch
+git branch gh-pages
+git commit -m "Mijn eerste commit"
+git push origin master
+ls
+cd staticapp
+cd StaticApp
+git init
+git config --global user.email "Naomi.Rosiers@telenet.be"
+git config --global user.name "NaomiRosiers"
+git remote add origin https://github.com/NaomiRosiers/StaticApp.git
+git add .
+git commit -m "Mijn Tweede commit"
+git push origin master
+git branch
+git branch gh-pages
+git checkout gh-pages
+git add .
+git commit -m "Een commitjeuh"
+git push origin gh-pages
+jekyll new JekyllApp
+cd JekyllApp
+git init
+bundle init
+source 'https://rubygems.org'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read) gem 'github-pages', versions['github-pages']
+source 'https://rubygems.org'
+cd JekyllApp
+ls
+source 'https://rubygems.org'
+ls
+cd Startpagina
+ls
+git init
+git config --global user.email "Naomi.Rosiers@telenet.be"
+git config --global user.name "RosiersNaomi"
+git remote add origin https://github.com/NaomiRosiers/Startpagina.git
+git add .
+git commit -m "Eerste update aan Startpagina"
+git push origin master
+git config --global user.email "Naomi.Rosiers@telenet.be"
+git config --global user.name "NaomiRosiers"
+git remote add origin https://github.com/NaomiRosiers/Startpagina.git
+git add .
+git commit -m "2de testje"
+git push origin master
+git push origin gh-pages
+git branch
+git branch gh-pages
+git checkout gh-pages
+git add .
+git commit -m "Nieuwe branch?"
+git push origin gh-pages
+git branch gh-pages
+git checkout gh-pages
+git add .
+git commit -m "index.html bewerkt"
+git push origin gh-pages
+ls
+cd Startpagina
+ls
+git add .
+git commit -m "javascript toegevoegd"
+git push origin gh-pages
+git add .
+git commit -m "Nieuwe java - test 2"
+git push origin gh-pages
+ls
+git add .
+git commit -am "3de poging - Java aangepast"
+git push origin gh-pages
+ls
+cd Startpagina
+ls
+git status
+git add .
+git commit -am "Java is normaal weer weg"
+git push origin gh-pages
+git status
+ls
+cd Startpagina
+ls
+git status
+git add .
+git commit -am "Werkt het nu wel? .js aangepast"
+git push origin gh-pages
+git status
+ls
+git branch
+git branch gh-pages
+git checkout gh-pages
+git add .
+git commit -am "JAVA IS WEG"
+git push origin gh-pages
